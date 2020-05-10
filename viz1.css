@@ -1,0 +1,113 @@
+/* section{
+  position: relative;
+} */
+body{
+  background-color: black;
+  margin: 0
+}
+p{
+  font-family: Rockwell;
+  color: white;
+}
+
+#container{
+  position: sticky;
+  top:0;
+  height: 100vh;
+  width: 100%;
+  /* background-color: red; */
+  /* z-index: -1; doesnt wokr, nbecause dowesn allow clicks*/
+}
+.mPoint{
+  cursor: pointer;
+}
+.explanation{
+  font-family: Rockwell;
+}
+
+
+#anotherContainer{
+  /* color:white;
+  outline: 1px solid white; */
+  width: 600px;
+  padding-left: 50px;
+  padding-bottom: 500px;
+  position: relative;
+  pointer-events: none;
+}
+#anotherContainer .clickable{
+  pointer-events: all;
+  left: -500px;
+}
+
+#note{
+  top: 5px;
+  font-size: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.sideNotes{
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 10px;
+}
+#buttonnext{
+  width: 300px;
+  height: 10px;
+  background-color: rgba(255,165,0, 0.9);
+  top: 500px;
+  left: 50px;
+}
+.nextviz{
+  margin: 0;
+  font-size: 3px;
+}
+#story{
+  position: absolute;
+  width: 400px;
+  left: -500px;
+  overflow: hidden;
+  background-color: rgba(255,165,0, 0.9);
+  padding: 10px;
+}
+#closeButton{
+  cursor: pointer;
+  color: white;
+  font-size: 1em;
+  text-align: right;
+  margin-right: 5px;
+  text-decoration: underline;
+
+}
+#storyContent{
+  margin: 16px;
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+
+
+
+
+#titleWord{
+  background-color: rgba(255,165,0, 0.9);
+  width: 400px;
+  height: 40px;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+#title{
+  font-family: Rockwell;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+#wordAtTheEnd{
+  margin: 80px;
+  margin-top: 0px;
+  background-color: rgba(255,165,0, 0.3);
+}
+#wordContent{
+  margin: 60px;
+  margin-top: -10px;
+}
