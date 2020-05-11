@@ -30,6 +30,7 @@ p{
   /* color:white;
   outline: 1px solid white; */
   width: 600px;
+  top: -100px;
   padding-left: 50px;
   padding-bottom: 500px;
   position: relative;
@@ -42,7 +43,7 @@ p{
 
 #note{
   top: 5px;
-  font-size: 5px;
+  font-size: 1em;
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -60,7 +61,7 @@ p{
 }
 .nextviz{
   margin: 0;
-  font-size: 3px;
+  font-size: 1em;
 }
 #story{
   position: absolute;
